@@ -1,7 +1,7 @@
 __pycache__
 
 ## Virtual env
-Include/
-Lib/
-Scripts/
-pyvenv.cfg
+/Include
+/Lib
+/Scripts
+/pyvenv.cfg
