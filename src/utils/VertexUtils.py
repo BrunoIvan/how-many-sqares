@@ -27,8 +27,8 @@ class VertexUtils:
     @staticmethod
     def countSqaresPerVertex(vertex:Vertex, maxX:int, maxY:int, vertices:list[Vertex]):
         maxVertexSqare = maxX if maxX <= maxY else maxY
-        sqareMatches = list(map(lambda i: VertexUtils.existsAnSqare(vertex, i, vertices), range(1, maxVertexSqare + 1)))
-        return functools.reduce(lambda a, b : a + b, list(map(lambda match: 1 if match else 0, sqareMatches)), 0)
+        sqareMatches = list(map(lambda i: int(VertexUtils.existsAnSqare(vertex, i, vertices)), range(1, maxVertexSqare + 1)))
+        return functools.reduce(lambda a, b : a + b, sqareMatches, 0)
 
     @staticmethod
     def countSqares(vertices:list[Vertex]):
