@@ -1,7 +1,6 @@
-from src.main.models.Vertex import Vertex
+from src.models.Vertex import Vertex
+from src.utils.VertexUtils import VertexUtils
 import unittest
-from src.main.utils.VertexUtil import VertexUtils
-from src.main.models.Vertex import Vertex
 
 class TestVertexUtils(unittest.TestCase):
 

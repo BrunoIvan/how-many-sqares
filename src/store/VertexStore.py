@@ -1,4 +1,4 @@
-from src.main.models.Vertex import Vertex
+from src.models.Vertex import Vertex
 
 """ Store of vertices used to represent connected sqares """
 class VertexStore():

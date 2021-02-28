@@ -1,5 +1,5 @@
+from src.store.VertexStore import VertexStore
 import unittest
-from src.main.store.VertexStore import VertexStore
 
 class VertexStoreTest(unittest.TestCase):
 

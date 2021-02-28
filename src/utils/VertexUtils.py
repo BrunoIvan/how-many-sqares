@@ -1,5 +1,5 @@
+from src.models.Vertex import Vertex
 import functools
-from src.main.models.Vertex import Vertex
 
 """ Util operations for vertices """
 class VertexUtils:
