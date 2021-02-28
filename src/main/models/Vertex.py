@@ -8,3 +8,6 @@ class Vertex:
         
         """ Represents the vertical coordinate of the vertex """
         self.y = y
+    
+    def __str__(self) -> str:
+        return '(%s, %s)' % (self.x, self.y)
